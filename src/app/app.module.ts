@@ -7,12 +7,16 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 // Rutas
 import { APP_ROUTING } from "./app.routes";
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { EducationComponent } from './components/education/education.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    EducationComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,

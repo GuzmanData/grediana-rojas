@@ -1,5 +1,7 @@
 import { RouterModule, Routes } from "@angular/router";
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { EducationComponent } from './components/education/education.component';
 
 
 const ROUTES: Routes = [
@@ -9,8 +11,10 @@ const ROUTES: Routes = [
     // { path: 'heroes', component: HeroesComponent },
     // { path: 'heroe/:id', component: HeroeComponent },
     // { path: 'buscar/:termino', component: BuscadorHeroesComponent },
+    { path: 'formation', component: EducationComponent },
+    { path: 'portfolio', component: PortfolioComponent },
     { path: 'aboutMe', component: AboutMeComponent },
-    { path: '', pathMatch: 'full', redirectTo: 'home' }
+    { path: '', pathMatch: 'full', redirectTo: 'aboutMe' }
 
 ];
 
