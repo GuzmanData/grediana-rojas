@@ -27,6 +27,15 @@ export class PortfolioService {
 
     },
     {
+      id: 7,
+      titulo: 'Heroes App',
+      descripcion: 'Aplicación de gestión de heroes con Angular',
+      img: 'assets/images/heroes-app-min.jpeg',
+      ruta: 'https://guzmandata.github.io/heroes-app/heroes',
+      tecnologias: ['webpack', 'Javascript', 'html', 'css', 'bootstrap']
+
+    },
+    {
       id: 3,
       titulo: 'Portafolio con bootstrap',
       descripcion: 'Compoenntes para la construcción de un portafolio hecho con bootstrap.',
