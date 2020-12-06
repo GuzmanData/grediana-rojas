@@ -2,6 +2,7 @@ import { RouterModule, Routes } from "@angular/router";
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { EducationComponent } from './components/education/education.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 
 const ROUTES: Routes = [
@@ -14,6 +15,7 @@ const ROUTES: Routes = [
     { path: 'formation', component: EducationComponent },
     { path: 'portfolio', component: PortfolioComponent },
     { path: 'aboutMe', component: AboutMeComponent },
+    { path: 'contacts', component: ContactsComponent },
     { path: '', pathMatch: 'full', redirectTo: 'aboutMe' }
 
 ];

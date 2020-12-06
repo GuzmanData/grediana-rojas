@@ -1,66 +1,4 @@
-/* /---ACERCA DE---/ */
-.acerca-de{
-    padding: 30px;
-    margin-bottom: 40px;
-}
-.acerca-de .foto{
-    text-align: center;
-}
-.acerca-de .foto img{
-    margin-bottom: 30px;
-    max-width: 180px;
-}
-
-.acerca-de .foto .nombre{
-    color: #545454;
-    font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 2px;
-
-}
-
-.acerca-de .info .titulo{
-    color: #005385;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 40px;
-    margin-bottom: 30px;
-}
-
-.acerca-de .info .resumen{
-    letter-spacing: 1px;
-    text-align: justify;
-}
-
-.acerca-de .info .label{
-    font-size: 18px;
-    font-weight: 600;
-    color: #005385;
-    margin-bottom: 10px;
-
-}
-
-.acerca-de .info .progress{
-    background: #005385;
-    border-radius: 0;
-    margin-bottom: 15px;
-    height: 25px;
-}
-
-.acerca-de .info .progress .progress-bar{
-    background: #3da5e2;
-    line-height: 25px;
-    text-align: left;
-    padding-left: 20px;
-}
-
-
-
-
-
-/* Redes sociales */
-
-/* /---Fomulario----/ */
+/---Fomulario----/
     .contacto{
         padding: 40px 0;
     border-top: 1px solid #cbcbcb;
@@ -130,7 +68,7 @@
     display: inline-block;
     text-decoration: none;
     border-radius: 100px;
-    transition: all 3s ease;
+    transition: all .3s ease;
 }
 
 .redes-sociales .gmail{
@@ -138,7 +76,7 @@
 }
 
 .redes-sociales .linkedin{
-    background:#0A66C2;
+    background:#0b52ec;
 }
 
 .redes-sociales .git{

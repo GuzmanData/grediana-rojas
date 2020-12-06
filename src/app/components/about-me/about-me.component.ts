@@ -7,9 +7,37 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutMeComponent implements OnInit {
 
-  constructor() { }
+  progreso: string;
+  constructor() { 
+
+
+
+
+
+
+
+    
+  }
 
   ngOnInit(): void {
+
+    for (let i = 0; i < 101; i++) {
+
+  
+      setTimeout(() => {
+    
+        this.progreso = `${i}%`;
+        
+      },10);
+    
+    }
+
+
   }
+
+
+
+
+
 
 }
